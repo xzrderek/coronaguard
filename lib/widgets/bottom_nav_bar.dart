@@ -17,16 +17,16 @@ class BottomNavBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           BottomNavItem(
-            title: "Today",
+            title: "Health",
             svgScr: "assets/icons/calendar.svg",
           ),
           BottomNavItem(
-            title: "All Exercises",
+            title: "Scan In",
             svgScr: "assets/icons/gym.svg",
             isActive: true,
           ),
           BottomNavItem(
-            title: "Settings",
+            title: "Report",
             svgScr: "assets/icons/Settings.svg",
           ),
         ],
