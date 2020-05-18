@@ -207,7 +207,7 @@ class _TrainingScreenState extends State<TrainingScreen>
                               child: Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Text(
-                                  'Training',
+                                  'Settings',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                     fontFamily: FintnessAppTheme.fontName,
