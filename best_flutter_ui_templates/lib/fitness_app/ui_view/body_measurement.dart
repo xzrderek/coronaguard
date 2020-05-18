@@ -49,7 +49,7 @@ class BodyMeasurementView extends StatelessWidget {
                             padding: const EdgeInsets.only(
                                 left: 4, bottom: 8, top: 16),
                             child: Text(
-                              'Weight',
+                              'Today',
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                   fontFamily: FintnessAppTheme.fontName,
@@ -71,7 +71,7 @@ class BodyMeasurementView extends StatelessWidget {
                                     padding: const EdgeInsets.only(
                                         left: 4, bottom: 3),
                                     child: Text(
-                                      '206.8',
+                                      '10',
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
                                         fontFamily: FintnessAppTheme.fontName,
@@ -85,7 +85,7 @@ class BodyMeasurementView extends StatelessWidget {
                                     padding: const EdgeInsets.only(
                                         left: 8, bottom: 8),
                                     child: Text(
-                                      'Ibs',
+                                      'Exposures',
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
                                         fontFamily: FintnessAppTheme.fontName,
@@ -134,7 +134,7 @@ class BodyMeasurementView extends StatelessWidget {
                                     padding: const EdgeInsets.only(
                                         top: 4, bottom: 14),
                                     child: Text(
-                                      'InBody SmartScale',
+                                      'Bluetooth Detected',
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
                                         fontFamily: FintnessAppTheme.fontName,
