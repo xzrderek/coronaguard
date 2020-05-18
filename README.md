@@ -1,24 +1,11 @@
-# Daily Exercises App - Flutter UI
+# Best-Flutter-UI-Templates
+completely free for everyone. Its build-in Flutter Dart.
 
-## [Watch it on YouTube](https://youtu.be/qQ75cxc5q8o)
+![Image](best_flutter_ui_templates/assets/hotel/hotel_booking.png)
+![Image](best_flutter_ui_templates/assets/fitness_app/fitness_app.png)
+![Image](images/custom_drawer.png)
+![Image](best_flutter_ui_templates/assets/design_course/design_course.png)
 
-**Packages we are using:**
+### Some Screenshots
 
-- flutter_svg: [link](https://pub.dev/packages/flutter_svg)
-
-**Fonts**
-
-- Cairo [link](https://fonts.google.com/specimen/Cairo)
-
-**UI Credit**
-
-- Design by: Shahidul Islam Shishir [link](https://www.uplabs.com/posts/daily-exercises-app-freebie)
-
-There are two pages, you can call it home page and details or meditation page. On the home page at the top right corner you got a menu button, then a big good morning for you. After that a search bar with a rounded corner, then a list of exercises for you. Lastly, at the bottom you got a Botton navigation bar.
-
-Now come to the details or meditation page, Top of the page has a title with a short description of the course and on the right side a yoga lady vector with a small search bar. Then the list of sessions, At the bottom the second part of the course.
-
-
-### Daily Exercises App Final UI
-
-![App UI](/ui.png)
+<img src="images/hotel_booking.gif" height="300em"><img src="images/custom_drawer.gif" height="300em"><img src="images/fitness_app.gif" height="300em" /> <img src="images/design_course.gif" height="300em" />
