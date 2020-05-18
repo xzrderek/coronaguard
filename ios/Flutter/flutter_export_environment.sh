@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=C:\Users\xzrde\Downloads\flutter_windows_1.17.1-stable\flutter"
-export "FLUTTER_APPLICATION_PATH=C:\xzr's corner\csa\coronaguard"
+export "FLUTTER_APPLICATION_PATH=C:\xzr's corner\csa\coronaguard\coronaguard-fb0d8f97510347059431188f3c5712d03acb9aae"
 export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"
 export "SYMROOT=${SOURCE_ROOT}/../build\ios"
