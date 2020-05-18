@@ -90,22 +90,22 @@ class _HomeScreenState extends State<HomeScreen> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.search,
+              Icons.home,
               size: 30.0,
             ),
             title: SizedBox.shrink(),
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.local_pizza,
+              Icons.nfc,
               size: 30.0,
             ),
             title: SizedBox.shrink(),
           ),
           BottomNavigationBarItem(
-            icon: CircleAvatar(
-              radius: 15.0,
-              backgroundImage: NetworkImage('http://i.imgur.com/zL4Krbz.jpg'),
+            icon: Icon(
+              Icons.settings,
+              size: 30.0,
             ),
             title: SizedBox.shrink(),
           )
