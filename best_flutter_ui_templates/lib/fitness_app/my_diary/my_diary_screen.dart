@@ -250,7 +250,7 @@ class _MyDiaryScreenState extends State<MyDiaryScreen>
                               child: Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Text(
-                                  'CoronaGuard',
+                                  'dab',
                                   textAlign: TextAlign.left,
                                   style: TextStyle(
                                     fontFamily: FintnessAppTheme.fontName,
