@@ -5,7 +5,8 @@ import 'package:best_flutter_ui_templates/fitness_app/ui_view/title_view.dart';
 import 'package:best_flutter_ui_templates/fitness_app/fintness_app_theme.dart';
 import 'package:best_flutter_ui_templates/fitness_app/my_diary/meals_list_view.dart';
 import 'package:best_flutter_ui_templates/fitness_app/my_diary/water_view.dart';
-import 'package:best_flutter_ui_templates/fitness_app/ui_view/workout_view.dart';
+import 'package:best_flutter_ui_templates/fitness_app/ui_view/self_report.dart';
+
 
 import 'package:flutter/material.dart';
 
@@ -96,7 +97,7 @@ class _MyDiaryScreenState extends State<MyDiaryScreen>
     // );
 
     listViews.add(
-      WorkoutView(
+      SelfReport(
         animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
             parent: widget.animationController,
             curve:
