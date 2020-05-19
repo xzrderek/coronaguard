@@ -251,6 +251,7 @@ class BodyMeasurementView extends StatelessWidget {
                                   children: <Widget>[
                                     Text(
                                       '20',
+                                      textAlign: TextAlign.center,
                                       style: TextStyle(
                                         fontFamily: FintnessAppTheme.fontName,
                                         fontWeight: FontWeight.w500,
