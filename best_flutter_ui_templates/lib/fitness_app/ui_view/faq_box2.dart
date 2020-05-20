@@ -49,7 +49,7 @@ class FAQBoxView2 extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(top: 5.0, bottom: 8.0),
                         child: Text(
-                          'What does information does CoronaGuard collect from me?',
+                          'What information does CoronaGuard collect from me?',
                           textAlign: TextAlign.left,
                           style: TextStyle(
                             fontFamily: FintnessAppTheme.fontName,
