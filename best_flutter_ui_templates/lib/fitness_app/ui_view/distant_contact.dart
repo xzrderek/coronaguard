@@ -2,11 +2,11 @@ import 'package:best_flutter_ui_templates/main.dart';
 import 'package:flutter/material.dart';
 import '../fintness_app_theme.dart';
 
-class DirectContactView extends StatelessWidget {
+class DistantContactView extends StatelessWidget {
   final AnimationController animationController;
   final Animation animation;
 
-  const DirectContactView({Key key, this.animationController, this.animation})
+  const DistantContactView({Key key, this.animationController, this.animation})
       : super(key: key);
 
   @override
@@ -21,7 +21,7 @@ class DirectContactView extends StatelessWidget {
                 0.0, 30 * (1.0 - animation.value), 0.0),
             child: Padding(
               padding: const EdgeInsets.only(
-                  left: 24, right: 24, top: 10, bottom: 0),
+                  left: 24, right: 24, top: 10, bottom: 10),
               child: Container(
                 decoration: BoxDecoration(
                   gradient: LinearGradient(colors: [
@@ -49,7 +49,7 @@ class DirectContactView extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(top: 5.0, bottom: 8.0),
                         child: Text(
-                          'Direct Contact',
+                          'Distant Contact',
                           textAlign: TextAlign.left,
                           style: TextStyle(
                             fontFamily: FintnessAppTheme.fontName,
@@ -61,7 +61,7 @@ class DirectContactView extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        'You were near a person who was likely contagious for more than 5 minutes.',
+                        'You were 3 contacts from a person who tested positive.',
                         textAlign: TextAlign.left,
                         style: TextStyle(
                           fontFamily: FintnessAppTheme.fontName,

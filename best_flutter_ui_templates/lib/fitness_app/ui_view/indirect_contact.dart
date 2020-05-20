@@ -21,7 +21,7 @@ class IndirectContactView extends StatelessWidget {
                 0.0, 30 * (1.0 - animation.value), 0.0),
             child: Padding(
               padding: const EdgeInsets.only(
-                  left: 24, right: 24, top: 10, bottom: 10),
+                  left: 24, right: 24, top: 10, bottom: 0),
               child: Container(
                 decoration: BoxDecoration(
                   gradient: LinearGradient(colors: [
@@ -49,7 +49,7 @@ class IndirectContactView extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.only(top: 5.0, bottom: 8.0),
                         child: Text(
-                          'Indirect Contact — May 7',
+                          'Indirect Contact',
                           textAlign: TextAlign.left,
                           style: TextStyle(
                             fontFamily: FintnessAppTheme.fontName,

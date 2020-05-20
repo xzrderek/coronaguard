@@ -1,4 +1,5 @@
 import 'package:best_flutter_ui_templates/fitness_app/ui_view/direct_contact.dart';
+import 'package:best_flutter_ui_templates/fitness_app/ui_view/distant_contact.dart';
 import 'package:best_flutter_ui_templates/fitness_app/ui_view/indirect_contact.dart';
 import 'package:best_flutter_ui_templates/fitness_app/ui_view/first_location.dart';
 import 'package:best_flutter_ui_templates/fitness_app/ui_view/title_view.dart';
@@ -89,7 +90,7 @@ class _TrainingScreenState extends State<TrainingScreen>
         animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
             parent: widget.animationController,
             curve:
-                Interval((1 / count) * 4, 1.0, curve: Curves.fastOutSlowIn))),
+                Interval((1 / count) * 1, 1.0, curve: Curves.fastOutSlowIn))),
         animationController: widget.animationController,
       ),
     );
@@ -99,25 +100,15 @@ class _TrainingScreenState extends State<TrainingScreen>
         animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
             parent: widget.animationController,
             curve:
-                Interval((1 / count) * 5, 1.0, curve: Curves.fastOutSlowIn))),
-        animationController: widget.animationController,
-      ),
-    );
-
-    listViews.add(
-      TitleView(
-        titleTxt: 'Recent Contacts',
-        // subTxt: 'Details',
-        animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
-            parent: widget.animationController,
-            curve:
                 Interval((1 / count) * 1, 1.0, curve: Curves.fastOutSlowIn))),
         animationController: widget.animationController,
       ),
     );
 
     listViews.add(
-      DirectContactView(
+      TitleView(
+        titleTxt: 'Contacts',
+        // subTxt: 'Details',
         animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
             parent: widget.animationController,
             curve:
@@ -127,7 +118,27 @@ class _TrainingScreenState extends State<TrainingScreen>
     );
 
     listViews.add(
+      DirectContactView(
+        animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
+            parent: widget.animationController,
+            curve:
+                Interval((1 / count) * 3, 1.0, curve: Curves.fastOutSlowIn))),
+        animationController: widget.animationController,
+      ),
+    );
+
+    listViews.add(
       IndirectContactView(
+        animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
+            parent: widget.animationController,
+            curve:
+                Interval((1 / count) * 3, 1.0, curve: Curves.fastOutSlowIn))),
+        animationController: widget.animationController,
+      ),
+    );
+
+    listViews.add(
+      DistantContactView(
         animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
             parent: widget.animationController,
             curve:
