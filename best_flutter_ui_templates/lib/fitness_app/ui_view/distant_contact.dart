@@ -61,7 +61,7 @@ class DistantContactView extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        'You were 3 contacts from a person who tested positive.',
+                        'Someone just self-reported a positive test. During the time they were potentially contagious, they spent at least 5 minutes near two more people, who spent at least 5 minutes near you.',
                         textAlign: TextAlign.left,
                         style: TextStyle(
                           fontFamily: FintnessAppTheme.fontName,
@@ -71,6 +71,36 @@ class DistantContactView extends StatelessWidget {
                           color: FintnessAppTheme.nearlyBlack,
                         ),
                       ),
+                      Padding(
+                        padding: const EdgeInsets.only(
+                            left: 24, right: 24, top: 16, bottom: 8),
+                        child: Container(
+                          height: 2,
+                          decoration: BoxDecoration(
+                            color: FintnessAppTheme.background,
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(4.0)),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(
+                            left: 0, right: 0, top: 8, bottom: 8),
+                        child: Row(
+                          children: <Widget>[
+                            Positioned(
+                              // top: -2,
+                              // left: 0,
+                              child: SizedBox(
+                                width: 330,
+                                height: 100,
+                                child:
+                                    Image.asset("assets/fitness_app/distant.png"),
+                              ),
+                            ),
+                          ],
+                        ),
+                      )
                       
                       
 

@@ -24,10 +24,10 @@ class DirectContactView extends StatelessWidget {
                   left: 24, right: 24, top: 10, bottom: 0),
               child: Container(
                 decoration: BoxDecoration(
-                  gradient: LinearGradient(colors: [
-                    FintnessAppTheme.white,
-                    HexColor("#FFFFFF")
-                  ], begin: Alignment.topLeft, end: Alignment.bottomRight),
+                  gradient: LinearGradient(
+                      colors: [FintnessAppTheme.white, HexColor("#FFFFFF")],
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight),
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(8.0),
                       bottomLeft: Radius.circular(8.0),
@@ -61,7 +61,7 @@ class DirectContactView extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        'You were near a person who was likely contagious for more than 5 minutes.',
+                        'Someone you had contact with just self-reported a positive test. They spent at least 5 minutes near you, be careful and get tested!',
                         textAlign: TextAlign.left,
                         style: TextStyle(
                           fontFamily: FintnessAppTheme.fontName,
@@ -72,139 +72,36 @@ class DirectContactView extends StatelessWidget {
                         ),
                       ),
                       Padding(
-                      padding: const EdgeInsets.only(
-                          left: 24, right: 24, top: 8, bottom: 8),
-                      child: Container(
-                        height: 2,
-                        decoration: BoxDecoration(
-                          color: FintnessAppTheme.background,
-                          borderRadius: BorderRadius.all(Radius.circular(4.0)),
+                        padding: const EdgeInsets.only(
+                            left: 24, right: 24, top: 16, bottom: 8),
+                        child: Container(
+                          height: 2,
+                          decoration: BoxDecoration(
+                            color: FintnessAppTheme.background,
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(4.0)),
+                          ),
                         ),
                       ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(
-                          left: 24, right: 24, top: 8, bottom: 16),
-                      child: Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: <Widget>[
-                                Text(
-                                  '2',
-                                  textAlign: TextAlign.center,
-                                  style: TextStyle(
-                                    fontFamily: FintnessAppTheme.fontName,
-                                    fontWeight: FontWeight.w500,
-                                    fontSize: 16,
-                                    letterSpacing: -0.2,
-                                    color: FintnessAppTheme.darkText,
-                                  ),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.only(top: 6),
-                                  child: Text(
-                                    'Direct Contact',
-                                    textAlign: TextAlign.center,
-                                    style: TextStyle(
-                                      fontFamily: FintnessAppTheme.fontName,
-                                      fontWeight: FontWeight.w600,
-                                      fontSize: 12,
-                                      color: FintnessAppTheme.grey
-                                          .withOpacity(0.5),
-                                    ),
-                                  ),
-                                ),
-                              ],
+                      Padding(
+                        padding: const EdgeInsets.only(
+                            left: 0, right: 0, top: 8, bottom: 8),
+                        child: Row(
+                          children: <Widget>[
+                            Positioned(
+                              // top: -2,
+                              // left: 0,
+                              child: SizedBox(
+                                width: 330,
+                                height: 100,
+                                child:
+                                    Image.asset("assets/fitness_app/direct.png"),
+                              ),
                             ),
-                          ),
-                          Expanded(
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: <Widget>[
-                                Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: <Widget>[
-                                    Text(
-                                      '5',
-                                      textAlign: TextAlign.center,
-                                      style: TextStyle(
-                                        fontFamily: FintnessAppTheme.fontName,
-                                        fontWeight: FontWeight.w500,
-                                        fontSize: 16,
-                                        letterSpacing: -0.2,
-                                        color: FintnessAppTheme.darkText,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(top: 6),
-                                      child: Text(
-                                        'Indirect Contact',
-                                        textAlign: TextAlign.center,
-                                        style: TextStyle(
-                                          fontFamily: FintnessAppTheme.fontName,
-                                          fontWeight: FontWeight.w600,
-                                          fontSize: 12,
-                                          color: FintnessAppTheme.grey
-                                              .withOpacity(0.5),
-                                        ),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-                          Expanded(
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              crossAxisAlignment: CrossAxisAlignment.center,
-                              children: <Widget>[
-                                Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.end,
-                                  children: <Widget>[
-                                    Text(
-                                      '3',
-                                      textAlign: TextAlign.center,
-                                      style: TextStyle(
-                                        fontFamily: FintnessAppTheme.fontName,
-                                        fontWeight: FontWeight.w500,
-                                        fontSize: 16,
-                                        letterSpacing: -0.2,
-                                        color: FintnessAppTheme.darkText,
-                                      ),
-                                    ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(top: 6),
-                                      child: Text(
-                                        'Distant Contact',
-                                        textAlign: TextAlign.center,
-                                        style: TextStyle(
-                                          fontFamily: FintnessAppTheme.fontName,
-                                          fontWeight: FontWeight.w600,
-                                          fontSize: 12,
-                                          color: FintnessAppTheme.grey
-                                              .withOpacity(0.5),
-                                        ),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          )
-                        ],
-                      ),
-                    )
-                      
+                          ],
+                        ),
+                      )
 
-                      
-                      
                       // SizedBox(
                       //   height: 32,
                       // ),
@@ -239,28 +136,28 @@ class DirectContactView extends StatelessWidget {
                       //       Expanded(
                       //         child: SizedBox(),
                       //       ),
-                            // Container(
-                            //   decoration: BoxDecoration(
-                            //     color: FintnessAppTheme.nearlyWhite,
-                            //     shape: BoxShape.circle,
-                            //     boxShadow: <BoxShadow>[
-                            //       BoxShadow(
-                            //           color: FintnessAppTheme.nearlyBlack
-                            //               .withOpacity(0.4),
-                            //           offset: Offset(8.0, 8.0),
-                            //           blurRadius: 8.0),
-                            //     ],
-                            //   ),
-                            //   child: Padding(
-                            //     padding: const EdgeInsets.all(0.0),
-                            //     child: Icon(
-                            //       Icons.arrow_right,
-                            //       color: HexColor("#6F56E8"),
-                            //       size: 44,
-                            //     ),
-                            //   ),
-                            // )
-                          // ],
+                      // Container(
+                      //   decoration: BoxDecoration(
+                      //     color: FintnessAppTheme.nearlyWhite,
+                      //     shape: BoxShape.circle,
+                      //     boxShadow: <BoxShadow>[
+                      //       BoxShadow(
+                      //           color: FintnessAppTheme.nearlyBlack
+                      //               .withOpacity(0.4),
+                      //           offset: Offset(8.0, 8.0),
+                      //           blurRadius: 8.0),
+                      //     ],
+                      //   ),
+                      //   child: Padding(
+                      //     padding: const EdgeInsets.all(0.0),
+                      //     child: Icon(
+                      //       Icons.arrow_right,
+                      //       color: HexColor("#6F56E8"),
+                      //       size: 44,
+                      //     ),
+                      //   ),
+                      // )
+                      // ],
                       //   ),
                       // )
                     ],
