@@ -32,8 +32,8 @@ class CDCView extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: FintnessAppTheme.white,
                             borderRadius: BorderRadius.only(
-                                topLeft: Radius.circular(80.0),
-                                bottomLeft: Radius.circular(80.0),
+                                topLeft: Radius.circular(20.0),
+                                bottomLeft: Radius.circular(20.0),
                                 bottomRight: Radius.circular(20.0),
                                 topRight: Radius.circular(20.0)),
                             boxShadow: <BoxShadow>[
