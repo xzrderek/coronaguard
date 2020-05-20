@@ -131,7 +131,7 @@ class MealsView extends StatelessWidget {
                           bottomRight: Radius.circular(8.0),
                           bottomLeft: Radius.circular(8.0),
                           topLeft: Radius.circular(8.0),
-                          topRight: Radius.circular(54.0),
+                          topRight: Radius.circular(8.0),
                         ),
                       ),
                       child: Padding(
@@ -157,7 +157,7 @@ class MealsView extends StatelessWidget {
                                 padding:
                                     const EdgeInsets.only(top: 8, bottom: 8),
                                 child: Row(
-                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  mainAxisAlignment: MainAxisAlignment.center,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: <Widget>[
                                     Text(

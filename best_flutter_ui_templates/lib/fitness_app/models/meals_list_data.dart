@@ -19,7 +19,7 @@ class MealsListData {
     MealsListData(
       // imagePath: 'assets/fitness_app/breakfast.png',
       titleTxt: 'Direct Contact',
-      kacl: 1,
+      kacl: 3,
       meals: <String>['Self-Quarantine!'],
       startColor: '#93291E',
       endColor: '#ED213A',
@@ -27,7 +27,7 @@ class MealsListData {
     MealsListData(
       // imagePath: 'assets/fitness_app/lunch.png',
       titleTxt: 'Indirect Contact',
-      kacl: 2,
+      kacl: 4,
       meals: <String>['Watch symptons!'],
       startColor: '#F37335',
       endColor: '#FDC830',
