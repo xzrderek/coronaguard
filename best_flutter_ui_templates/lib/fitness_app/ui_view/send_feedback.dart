@@ -27,12 +27,12 @@ class FeedbackView extends StatelessWidget {
                   gradient: LinearGradient(colors: [
                     FintnessAppTheme.nearlyDarkBlue,
                     HexColor("#6F56E8")
-                  ], begin: Alignment.topRight, end: Alignment.bottomLeft),
+                  ], begin: Alignment.topLeft, end: Alignment.bottomRight),
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(8.0),
                       bottomLeft: Radius.circular(8.0),
                       bottomRight: Radius.circular(8.0),
-                      topRight: Radius.circular(68.0)),
+                      topRight: Radius.circular(8.0)),
                   boxShadow: <BoxShadow>[
                     BoxShadow(
                         color: FintnessAppTheme.grey.withOpacity(0.6),
@@ -71,6 +71,7 @@ class FeedbackView extends StatelessWidget {
                           color: FintnessAppTheme.white,
                         ),
                       ),
+                      
 
                       
                       
@@ -108,28 +109,28 @@ class FeedbackView extends StatelessWidget {
                       //       Expanded(
                       //         child: SizedBox(),
                       //       ),
-                      //       Container(
-                      //         decoration: BoxDecoration(
-                      //           color: FintnessAppTheme.nearlyWhite,
-                      //           shape: BoxShape.circle,
-                      //           boxShadow: <BoxShadow>[
-                      //             BoxShadow(
-                      //                 color: FintnessAppTheme.nearlyBlack
-                      //                     .withOpacity(0.4),
-                      //                 offset: Offset(8.0, 8.0),
-                      //                 blurRadius: 8.0),
-                      //           ],
-                      //         ),
-                      //         child: Padding(
-                      //           padding: const EdgeInsets.all(0.0),
-                      //           child: Icon(
-                      //             Icons.arrow_right,
-                      //             color: HexColor("#6F56E8"),
-                      //             size: 44,
-                      //           ),
-                      //         ),
-                      //       )
-                      //     ],
+                            // Container(
+                            //   decoration: BoxDecoration(
+                            //     color: FintnessAppTheme.nearlyWhite,
+                            //     shape: BoxShape.circle,
+                            //     boxShadow: <BoxShadow>[
+                            //       BoxShadow(
+                            //           color: FintnessAppTheme.nearlyBlack
+                            //               .withOpacity(0.4),
+                            //           offset: Offset(8.0, 8.0),
+                            //           blurRadius: 8.0),
+                            //     ],
+                            //   ),
+                            //   child: Padding(
+                            //     padding: const EdgeInsets.all(0.0),
+                            //     child: Icon(
+                            //       Icons.arrow_right,
+                            //       color: HexColor("#6F56E8"),
+                            //       size: 44,
+                            //     ),
+                            //   ),
+                            // )
+                          // ],
                       //   ),
                       // )
                     ],
