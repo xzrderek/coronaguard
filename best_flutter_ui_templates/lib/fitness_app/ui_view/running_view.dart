@@ -117,7 +117,7 @@ class RunningView extends StatelessWidget {
                         child: SizedBox(
                           width: 110,
                           height: 110,
-                          child: Image.asset("assets/fitness_app/runner.png"),
+                          child: Image.asset("assets/fitness_app/wear_mask.png"),
                         ),
                       )
                     ],
