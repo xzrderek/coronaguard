@@ -17,7 +17,7 @@ class MealsListData {
 
   static List<MealsListData> tabIconsList = <MealsListData>[
     MealsListData(
-      imagePath: 'assets/fitness_app/breakfast.png',
+      imagePath: '',
       titleTxt: 'Direct Contact',
       kacl: 1,
       meals: <String>['Self-Quarantine!'],
@@ -25,7 +25,7 @@ class MealsListData {
       endColor: '#ED213A',
     ),
     MealsListData(
-      imagePath: 'assets/fitness_app/lunch.png',
+      imagePath: '',
       titleTxt: 'Indirect Contact',
       kacl: 2,
       meals: <String>['Watch symptons!'],
@@ -33,20 +33,12 @@ class MealsListData {
       endColor: '#FDC830',
     ),
     MealsListData(
-      imagePath: 'assets/fitness_app/snack.png',
+      imagePath: '',
       titleTxt: 'Distant Contact',
       kacl: 3,
       meals: <String>['Be careful!'],
       startColor: '#11998e',
       endColor: '#38ef7d',
-    ),
-    MealsListData(
-      imagePath: 'assets/fitness_app/dinner.png',
-      titleTxt: 'Dinner',
-      kacl: 0,
-      meals: <String>['Recommend:', '703 kcal'],
-      startColor: '#6F72CA',
-      endColor: '#1E1466',
     ),
   ];
 }
