@@ -27,7 +27,7 @@ class FeedbackView extends StatelessWidget {
                   gradient: LinearGradient(colors: [
                     FintnessAppTheme.nearlyDarkBlue,
                     HexColor("#6F56E8")
-                  ], begin: Alignment.topLeft, end: Alignment.bottomRight),
+                  ], begin: Alignment.topRight, end: Alignment.bottomLeft),
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(8.0),
                       bottomLeft: Radius.circular(8.0),

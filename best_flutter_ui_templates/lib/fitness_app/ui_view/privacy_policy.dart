@@ -61,7 +61,7 @@ class PrivacyView extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        'Learn more about our policies',
+                        'Learn about our policies',
                         textAlign: TextAlign.left,
                         style: TextStyle(
                           fontFamily: FintnessAppTheme.fontName,
