@@ -91,7 +91,7 @@ class SelfReport extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.only(left: 4.0),
                               child: Text(
-                                'Learn More at FAQs',
+                                'Learn More at FAQ',
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                   fontFamily: FintnessAppTheme.fontName,

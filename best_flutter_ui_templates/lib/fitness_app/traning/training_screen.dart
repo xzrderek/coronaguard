@@ -59,16 +59,16 @@ class _TrainingScreenState extends State<TrainingScreen>
   void addAllListData() {
     const int count = 6;
 
-    // listViews.add(
-    //   MealsListView(
-    //     mainScreenAnimation: Tween<double>(begin: 0.0, end: 1.0).animate(
-    //         CurvedAnimation(
-    //             parent: widget.animationController,
-    //             curve: Interval((1 / count) * 0, 1.0,
-    //                 curve: Curves.fastOutSlowIn))),
-    //     mainScreenAnimationController: widget.animationController,
-    //   ),
-    // );
+    listViews.add(
+      MealsListView(
+        mainScreenAnimation: Tween<double>(begin: 0.0, end: 1.0).animate(
+            CurvedAnimation(
+                parent: widget.animationController,
+                curve: Interval((1 / count) * 0, 1.0,
+                    curve: Curves.fastOutSlowIn))),
+        mainScreenAnimationController: widget.animationController,
+      ),
+    );
 
     listViews.add(
       TitleView(
