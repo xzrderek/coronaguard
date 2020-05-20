@@ -109,7 +109,7 @@ class MealsView extends StatelessWidget {
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.only(
-                        top: 32, left: 8, right: 8, bottom: 16),
+                        top: 8, left: 8, right: 8, bottom: 16),
                     child: Container(
                       decoration: BoxDecoration(
                         boxShadow: <BoxShadow>[
@@ -136,7 +136,7 @@ class MealsView extends StatelessWidget {
                       ),
                       child: Padding(
                         padding: const EdgeInsets.only(
-                            top: 54, left: 16, right: 16, bottom: 8),
+                            top: 80, left: 16, right: 16, bottom: 8),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -251,7 +251,7 @@ class MealsView extends StatelessWidget {
                     child: SizedBox(
                       width: 80,
                       height: 80,
-                      // child: Image.asset(mealsListData.imagePath),
+                      child: Image.asset(mealsListData.imagePath),
                     ),
                   )
                 ],
