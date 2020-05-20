@@ -71,6 +71,136 @@ class DirectContactView extends StatelessWidget {
                           color: FintnessAppTheme.nearlyBlack,
                         ),
                       ),
+                      Padding(
+                      padding: const EdgeInsets.only(
+                          left: 24, right: 24, top: 8, bottom: 8),
+                      child: Container(
+                        height: 2,
+                        decoration: BoxDecoration(
+                          color: FintnessAppTheme.background,
+                          borderRadius: BorderRadius.all(Radius.circular(4.0)),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(
+                          left: 24, right: 24, top: 8, bottom: 16),
+                      child: Row(
+                        children: <Widget>[
+                          Expanded(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: <Widget>[
+                                Text(
+                                  '2',
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                    fontFamily: FintnessAppTheme.fontName,
+                                    fontWeight: FontWeight.w500,
+                                    fontSize: 16,
+                                    letterSpacing: -0.2,
+                                    color: FintnessAppTheme.darkText,
+                                  ),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.only(top: 6),
+                                  child: Text(
+                                    'Direct Contact',
+                                    textAlign: TextAlign.center,
+                                    style: TextStyle(
+                                      fontFamily: FintnessAppTheme.fontName,
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 12,
+                                      color: FintnessAppTheme.grey
+                                          .withOpacity(0.5),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Expanded(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: <Widget>[
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: <Widget>[
+                                    Text(
+                                      '5',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FintnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 16,
+                                        letterSpacing: -0.2,
+                                        color: FintnessAppTheme.darkText,
+                                      ),
+                                    ),
+                                    Padding(
+                                      padding: const EdgeInsets.only(top: 6),
+                                      child: Text(
+                                        'Indirect Contact',
+                                        textAlign: TextAlign.center,
+                                        style: TextStyle(
+                                          fontFamily: FintnessAppTheme.fontName,
+                                          fontWeight: FontWeight.w600,
+                                          fontSize: 12,
+                                          color: FintnessAppTheme.grey
+                                              .withOpacity(0.5),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+                          Expanded(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: <Widget>[
+                                Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  crossAxisAlignment: CrossAxisAlignment.end,
+                                  children: <Widget>[
+                                    Text(
+                                      '3',
+                                      textAlign: TextAlign.center,
+                                      style: TextStyle(
+                                        fontFamily: FintnessAppTheme.fontName,
+                                        fontWeight: FontWeight.w500,
+                                        fontSize: 16,
+                                        letterSpacing: -0.2,
+                                        color: FintnessAppTheme.darkText,
+                                      ),
+                                    ),
+                                    Padding(
+                                      padding: const EdgeInsets.only(top: 6),
+                                      child: Text(
+                                        'Distant Contact',
+                                        textAlign: TextAlign.center,
+                                        style: TextStyle(
+                                          fontFamily: FintnessAppTheme.fontName,
+                                          fontWeight: FontWeight.w600,
+                                          fontSize: 12,
+                                          color: FintnessAppTheme.grey
+                                              .withOpacity(0.5),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    )
                       
 
                       
