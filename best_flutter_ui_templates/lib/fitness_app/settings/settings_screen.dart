@@ -114,7 +114,7 @@ class _SettingScreenState extends State<SettingScreen>
 
     listViews.add(
       TitleView(
-        titleTxt: 'Miscellaneous',
+        titleTxt: 'Sharing',
         // subTxt: 'more',
         animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
             parent: widget.animationController,

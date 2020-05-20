@@ -17,10 +17,10 @@ class _AreaListViewState extends State<AreaListView>
     with TickerProviderStateMixin {
   AnimationController animationController;
   List<String> areaListData = <String>[
-    'assets/fitness_app/area1.png',
-    'assets/fitness_app/area2.png',
-    'assets/fitness_app/area3.png',
-    'assets/fitness_app/area1.png',
+    'assets/fitness_app/imessage.png',
+    'assets/fitness_app/instagram.png',
+    'assets/fitness_app/twitter.png',
+    'assets/fitness_app/facebook.png',
   ];
 
   @override
@@ -76,9 +76,9 @@ class _AreaListViewState extends State<AreaListView>
                     },
                   ),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    mainAxisSpacing: 24.0,
-                    crossAxisSpacing: 24.0,
+                    crossAxisCount: 4,
+                    mainAxisSpacing: 12.0,
+                    crossAxisSpacing: 12.0,
                     childAspectRatio: 1.0,
                   ),
                 ),
