@@ -6,15 +6,15 @@ import 'package:flutter/material.dart';
 
 import '../fintness_app_theme.dart';
 
-class TrainingScreen extends StatefulWidget {
-  const TrainingScreen({Key key, this.animationController}) : super(key: key);
+class SettingScreen extends StatefulWidget {
+  const SettingScreen({Key key, this.animationController}) : super(key: key);
 
   final AnimationController animationController;
   @override
-  _TrainingScreenState createState() => _TrainingScreenState();
+  _SettingScreenState createState() => _SettingScreenState();
 }
 
-class _TrainingScreenState extends State<TrainingScreen>
+class _SettingScreenState extends State<SettingScreen>
     with TickerProviderStateMixin {
   Animation<double> topBarAnimation;
 
@@ -60,7 +60,7 @@ class _TrainingScreenState extends State<TrainingScreen>
 
     listViews.add(
       TitleView(
-        titleTxt: 'Your program',
+        titleTxt: 'penis',
         subTxt: 'Details',
         animation: Tween<double>(begin: 0.0, end: 1.0).animate(CurvedAnimation(
             parent: widget.animationController,
