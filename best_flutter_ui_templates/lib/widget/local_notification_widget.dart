@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-// import 'package:projectname33/local_notications_helper.dart';
-// import 'package:projectname33/page/second_page.dart';
+import 'package:best_flutter_ui_templates/local_notifications_helper.dart';
+import 'package:best_flutter_ui_templates/notificationpage/second_page.dart';
 
 class LocalNotificationWidget extends StatefulWidget {
   @override
