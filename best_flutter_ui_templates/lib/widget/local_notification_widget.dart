@@ -45,12 +45,12 @@ class _LocalNotificationWidgetState extends State<LocalNotificationWidget> {
             RaisedButton(
               child: Text('Replace notification'),
               onPressed: () => showOngoingNotification(notifications,
-                  title: 'ReplacedTitle', body: 'ReplacedBody'),
+                  title: 'CoronaGuard', body: 'Someone you have come into contact with self reported! Stay home and get tested!'),
             ),
             RaisedButton(
               child: Text('Other notification'),
               onPressed: () => showOngoingNotification(notifications,
-                  title: 'OtherTitle', body: 'OtherBody', id: 20),
+                  title: 'CoronaGuard', body: 'You have had 3 direct contacts with people who tested positive, please self quarantine immediately!', id: 20),
             ),
             const SizedBox(height: 32),
             title('Feautures'),
