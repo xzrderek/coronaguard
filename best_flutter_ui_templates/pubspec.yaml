@@ -32,9 +32,6 @@ dependencies:
   smooth_star_rating: ^1.0.3
   intl: ^0.16.0
 
-
-  
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
